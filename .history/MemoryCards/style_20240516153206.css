@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 166.51px;
+    height: 257.2px;
+    /* border: 2px solid red; */
+}
+#container{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+
+}
+.card{
+    /* border: 2px solid green; */
+    width: 170px;
+    height: 260px;
+}
+
+.cardSelected{
+    border: 4px solid yellow;
+}
+
+.matchedCards{
+    border: 4px solid green;
+}
+
+.cardBack{
+ border: 2px solid white
+}
+.cardFront{
+
+}
