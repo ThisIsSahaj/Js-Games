@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #111;
+    color: white;
+}
+
+.game{
+    /* border: 2px solid red; */
+    margin: 30px ;
+    line-height: 35px;
+    height: 105px;
+    overflow: hidden;
+    color: gray;
+    position: relative;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.cursor{
+    width: 2px;
+    height: 1.4rem;
+    background: white;
+    position: fixed;
+    top: 72px;
+    left: 27px;
+    animation: blink .7s infinite;
+
+}
+
+.singleWord{
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+
+ .correct {
+    color: #fff;
+}
+ .incorrect {
+    color: #f55;
+}
+

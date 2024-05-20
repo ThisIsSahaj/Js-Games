@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #111;
+    color: white;
+}
+
+.game{
+    /* border: 2px solid red; */
+    margin: 30px ;
+    line-height: 35px;
+    height: 105px;
+    overflow: hidden;
+    color: gray;
+    position: relative;
+}
+
+.cursor{
+    width: 2px;
+    height: 1.4rem;
+    background: white;
+    position: fixed;
+    top: 74px;
+    left: 28px;
+}
+
+.singleWord{
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+
+.letter .correct {
+    color: #fff;
+}
+.letter .inCorrect {
+    color: #f55;
+}
+
